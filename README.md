@@ -4,6 +4,18 @@ This project presents a systematic implementation and empirical comparison of fo
 
 The study evaluates scalability, execution time, memory consumption, convergence behavior, and solution capability across increasing board sizes (N = 10, 30, 50, 100, 200).
 
+[![Python](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/)
+[![Combinatorial Optimization](https://img.shields.io/badge/Field-Combinatorial%20Optimization-purple.svg)](#)
+[![DFS](https://img.shields.io/badge/Algorithm-DFS%20%28Backtracking%29-blue.svg)](https://en.wikipedia.org/wiki/Backtracking)
+[![Greedy Search](https://img.shields.io/badge/Algorithm-Greedy%20Search-orange.svg)](https://en.wikipedia.org/wiki/Greedy_algorithm)
+[![Simulated Annealing](https://img.shields.io/badge/Algorithm-Simulated%20Annealing-green.svg)](https://en.wikipedia.org/wiki/Simulated_annealing)
+[![Genetic Algorithm](https://img.shields.io/badge/Algorithm-Genetic%20Algorithm-red.svg)](https://en.wikipedia.org/wiki/Genetic_algorithm)
+[![Metaheuristic](https://img.shields.io/badge/Category-Metaheuristic-darkgreen.svg)](https://en.wikipedia.org/wiki/Metaheuristic)
+[![Evolutionary Computation](https://img.shields.io/badge/Category-Evolutionary%20Computation-brown.svg)](https://en.wikipedia.org/wiki/Evolutionary_computation)
+[![Experimental Study](https://img.shields.io/badge/Study-Experimental-blueviolet.svg)](#)
+[![Tested Up To](https://img.shields.io/badge/Tested%20Up%20To-N%3D100-brightgreen.svg)](#)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 <p align="center">
 <img src="Experiments/ga/GA-30.png" alt="N-Queens Algorithm" width="800">
 
