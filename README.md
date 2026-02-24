@@ -27,13 +27,13 @@ The N-Queens problem requires placing N queens on an N×N chessboard such that n
 
 As N increases, the search space grows combinatorially, making the problem an effective benchmark for analyzing:
 
-Search complexity
+* Search complexity
 
-Optimization landscapes
+* Optimization landscapes
 
-Local vs global minima behavior
+* Local vs global minima behavior
 
-Scalability under constrained resources
+* Scalability under constrained resources
 
 This makes it particularly relevant for understanding algorithmic optimization strategies used in AI systems.
 
