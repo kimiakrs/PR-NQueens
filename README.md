@@ -57,10 +57,20 @@ As N increases, the search space grows combinatorially, making the problem an ef
 This makes it particularly relevant for understanding algorithmic optimization strategies used in AI systems.
 
 ---
-
-
-
 ## Implemented Algorithms
+
+The overall workflow of the N-Queens study is illustrated below.
+
+<p align="center">
+<a href="N-Queens-Workflow.pdf">
+<img src="Workflow.png" alt="N-Queens Problem Architecture" width="800">
+
+</a>
+<br>
+<em>(Click image to view high-resolution PDF)</em>
+</p>
+
+The workflow consists of the following stages:
 
 ### Exhaustive Search (DFS with Backtracking)
 
