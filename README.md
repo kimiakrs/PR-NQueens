@@ -4,6 +4,13 @@ This project presents a systematic implementation and empirical comparison of fo
 
 The study evaluates scalability, execution time, memory consumption, convergence behavior, and solution capability across increasing board sizes (N = 10, 30, 50, 100, 200).
 
+<p align="center">
+<img src="Experiments/ga/GA-30.png" alt="N-Queens Algorithm" width="800">
+
+<br>
+</p>
+
+
 ---
 
 ## Table of Contents
@@ -163,7 +170,7 @@ DFS does not require tunable hyperparameters.
 - Explores all possible placements
 - No probabilistic components
 
----
+
 
 ### Greedy Search (Hill Climbing)
 
@@ -181,7 +188,6 @@ DFS does not require tunable hyperparameters.
 
 These parameters were introduced to reduce the probability of getting trapped in local minima.
 
----
 
 ### Simulated Annealing
 
@@ -202,6 +208,8 @@ Higher N values required:
 - Larger search budgets
 - Higher initial temperatures
 - Slower cooling schedules
+
+
 
 ### Genetic Algorithm
 
@@ -224,7 +232,6 @@ Higher N values required:
 - Local Search Steps: 1 – 12
 
 Genetic Algorithm performance was highly sensitive to parameter tuning, especially for larger board sizes.
-
 
 ---
 
