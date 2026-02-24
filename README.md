@@ -6,6 +6,21 @@ The study evaluates scalability, execution time, memory consumption, convergence
 
 ---
 
+## Table of Contents
+
+- [Problem Overview](#problem-overview)
+- [Implemented Algorithms](#implemented-algorithms)
+- [Experimental Setup](#experimental-setup)
+- [Algorithm Parameter Configuration](#algorithm-parameter-configuration)
+- [Performance Summary](#performance-summary)
+- [Relevance to Optimization and Artificial Intelligence](#relevance-to-optimization-and-artificial-intelligence)
+- [Repository Structure](#repository-structure)
+- [Future Work](#future-work)
+- [Academic Context](#academic-context)
+- [License](#license)
+  
+---
+
 ## Problem Overview
 
 The N-Queens problem requires placing N queens on an N×N chessboard such that no two queens attack each other horizontally, vertically, or diagonally.
@@ -23,6 +38,8 @@ Scalability under constrained resources
 This makes it particularly relevant for understanding algorithmic optimization strategies used in AI systems.
 
 ---
+
+
 
 ## Implemented Algorithms
 
@@ -90,7 +107,7 @@ Higher temperatures allow exploration, while gradual cooling increases exploitat
 Simulated Annealing provides a strong balance between exploration and convergence, making it one of the most scalable approaches in this study.
 
 
-4. Genetic Algorithm (Evolutionary Optimization)
+### Genetic Algorithm (Evolutionary Optimization)
 
 The Genetic Algorithm (GA) is a population-based evolutionary optimization method inspired by natural selection.  
 Instead of exploring a single solution, GA evolves a population of candidate solutions across generations.
@@ -274,12 +291,6 @@ N-Queens/
 
 ---
 
-## Academic Context
-
-This project was developed as part of an academic study in combinatorial optimization and algorithm analysis, with emphasis on empirical benchmarking, parameter sensitivity, and scalability evaluation.
-
----
-
 ## Future Work
 
 - [ ] Hybrid Genetic Algorithm + Local Search integration
@@ -287,6 +298,12 @@ This project was developed as part of an academic study in combinatorial optimiz
 - [ ] Parallel or distributed implementations
 - [ ] Automated hyperparameter tuning
 - [ ] Scaling experiments beyond N = 200
+
+---
+
+## Academic Context
+
+This project was developed as part of an academic study in combinatorial optimization and algorithm analysis, with emphasis on empirical benchmarking, parameter sensitivity, and scalability evaluation.
 
 ---
 
